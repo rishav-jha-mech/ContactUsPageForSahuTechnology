@@ -581,8 +581,28 @@
 .smh{
     display: none !important;
 }
+.phone{
+    display: none;
+}
+.laptop .place button{
+    outline: none;
+    border: none;
+    color: chartreuse;
+    background: #000;
+    font-size: 20px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+}
 /*google maps*/
 /*------------------------------------------2ND PAGE------------------------------------------------------*/
+@media(max-width:1024px){
+    .laptop{
+        display: none;
+    }
+    .phone{
+        display: block;
+    }
+}
 @media(max-width:1390px){
     .heading h1{
         left: 10px;    
