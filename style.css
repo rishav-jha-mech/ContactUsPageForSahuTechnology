@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+/******************************************FIRST TOP MOST HEADER******************************************************/
+.header1{
+    background-color: rgb(44, 39, 39);
+    color: #999;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    justify-content: space-between;
+    width: 100vw;
+}
+.header1 .logo h1{
+    color: rgb(44, 39, 39);
+}
+.header1 .inner{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 130px;
+}
+.header1 .inner h5{
+    font-size: 13px;
+    margin: 0 21px 0 21px;
+    vertical-align: middle;
+    font-weight: 400;
+    transition: 0.2s;
+    user-select: none;
+}
+.header1 .inner .butt i{
+    padding: 0 12px 0 12px;
+    margin-left: 15px;
+    border-left:  1px solid rgba(153, 153, 153, 0.253);
+    border-right: 1px solid rgba(153, 153, 153, 0.253);
+    transition: 0.6s;
+    user-select: none;
+}
+
+.header1 .inner h5:hover,
+.header1 .inner .butt i:hover{
+    color: aqua;
+    transition: 0.3s;
+    user-select: none;
+}
+/*-----------------------------------------FIRST TOP MOST HEADER---------------------------------------------------*/
+
+/*************************************************MAIN HEADER*******************************************************/
+.main_header{
+    display: flex;
+    justify-content: center;
+}
+.main_header .inner{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+.main_header .inner .nav_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.main_header .inner .nav_links a{
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0 25px 0 25px;
+    text-transform: uppercase;
+    border-left:  1px solid rgba(0, 0, 0, 0.137);
+    border-right: 1px solid rgba(0, 0, 0, 0.137);
+}
+.main_header .inner .butt{
+    position: relative;
+    left: 10vw;
+}
+.main_header .inner .butt button{
+    background-color: #ff156f;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    padding: 13px 20px 13px 20px;
+    outline: none;
+    border: 0px;
+    box-shadow: 0px;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+/*------------------------------------------------MAIN HEADER------------------------------------------------------*/
+
+/***************************** SECTION WHERE CONTACT IS WRITTEN AND THERES A BACKGROUND PICTURE*********************/
+.heading{
+    height: 250px;
+    background: url(bg1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.363);
+    background-attachment: fixed;
+}
+.heading h1{
+    position: absolute;
+    left: 6vw;
+    font-size: 3vw;
+    top: 0;
+    left: 50px;
+    margin: 0 20px 20px 0;
+    background-color: rgb(0, 177, 0);
+    padding: 7.5vw 3vw 1vw 2vw;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading p::before{
+    content: '';
+    border-left: 6px solid #ff156f;
+    margin-right: 20px;
+}
+.heading p{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+    margin-left: 6.5vw;
+}
+/*----------------------------SECTION WHERE CONTACT IS WRITTEN AND THERES A BACKGROUND PICTURE---------------------*/
+
+/*******************************************A USELESS SECTION*******************************************************/
+.useless{
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    flex-direction: column;
+    padding: 0 50px;
+}
+.useless p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: grey;
+    font-weight: 700;
+    margin-left: 1vw;
+}
+/*------------------------------------------A USELESS SECTION------------------------------------------------------*/
+
+
+
+
+
+
+
+/*******************************************MAIN PORTION CONTACT US PAGE*******************************************************/
+.contact_us_main_sec .innercontact{
+    display: flex;
+    margin-top: 70px;
+    width: 100%;
+    justify-content: space-between;
+    padding-left:  70px;
+    padding-right: 70px;
+    min-height: 90vh;
+    margin-bottom: 40px;
+}
+.contact_us_main_sec .innercontact .left{
+    min-width: 50%;
+    height: auto;
+    margin-right: 70px;
+}
+.contact_us_main_sec .innercontact .right{
+    min-width: 50%;
+    height: auto;
+}
+
+.contact_us_main_sec  .left .one {
+    margin-bottom: 11vh;
+    padding-bottom: 2vh;
+}
+/*LEFT CONTACT INFO PAGE*/
+.contact_us_main_sec .innercontact .left h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.contact_us_main_sec .innercontact .left p{
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+}
+.contact_us_main_sec .innercontact .left .row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-between;    
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.07);
+    border-top:    2px solid rgba(0, 0, 0, 0.07);
+}
+.contact_us_main_sec .innercontact .left .row .phone,.contact_us_main_sec .innercontact .left .row .email{
+    display: flex;
+    align-items: center;
+    padding-right: 80px;
+}
+.contact_us_main_sec .innercontact .left .row .phone .content,.contact_us_main_sec .innercontact .left .row .email .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+}
+.contact_us_main_sec .innercontact .left .row h3,.contact_us_main_sec .innercontact .left .row p{
+    margin: unset;
+    padding: unset;
+    color: black;
+}
+.contact_us_main_sec .innercontact .left .row p{
+    color: grey;
+}
+.contact_us_main_sec .innercontact .left .row i{
+    font-size: 24px;
+    color: gold;
+    padding: 8px;
+    padding-right: 15px;
+}   
+
+.contact_us_main_sec .innercontact .left .address {
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.07);
+}
+.contact_us_main_sec .innercontact .left .address h1,
+.contact_us_main_sec .innercontact .left .address p{
+    margin: unset;
+    padding: unset;
+    color: black;
+}
+.contact_us_main_sec .innercontact .left .address p{
+    color: grey;
+}
+.contact_us_main_sec .innercontact .left .address i{
+    font-size: 24px;
+    color: gold;
+    padding: 8px;
+    padding-right: 15px;
+}
+/*SOCIAL LINKS PORTION*/
+.contact_us_main_sec .innercontact .left .socials{
+    display: flex;
+    justify-content: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.contact_us_main_sec .innercontact .left .socials i{
+    color: grey;
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid grey;
+    margin: 6px;
+}
+/*SOCIAL LINKS PORTION*/
+
+/*LEFT CONTACT INFO PAGE*/
+
+/*RIGHT PAGE*/
+.contact_us_main_sec  .right .one {
+    margin-bottom: 10vh;
+    padding-bottom: 2vh;
+}
+/*LEFT CONTACT INFO PAGE*/
+.contact_us_main_sec .innercontact .right h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.contact_us_main_sec .innercontact .right p{
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+}
+.contact_us_main_sec .innercontact .right .form .row1{
+    display: flex;
+    width: auto;
+}
+.contact_us_main_sec .innercontact .right .form .row1 input{
+    width: 40%;
+    padding: 10px 7px 10px 7px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.contact_us_main_sec .innercontact .right .form .row1 input:nth-child(1){
+    margin-right: 20px;
+}
+.contact_us_main_sec .innercontact .right .form .row2 input{
+    width: calc(80% + 20px);
+    padding: 10px 7px 10px 7px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.contact_us_main_sec .innercontact .right .form .row3 textarea{
+    width: calc(80% + 20px);
+    padding: 10px 7px 10px 7px;
+    outline: none;
+    margin-bottom: 20px;
+}
+.contact_us_main_sec .innercontact .right .form .submits{
+    background: #ff156f;
+    margin-bottom: 50px;
+    padding: 12px 25px 12px 25px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 50px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+} 
+
+/*RIGHT PAGE*/
+/*------------------------------------------MAIN PORTION CONTACT US PAGE------------------------------------------------------*/
+
+
+/*******************************************2ND PAGE*******************************************************/
+.page2-fixed-bg{
+    background: url('bg2.jpg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.page2-fixed-bg h1{
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 60px;
+    margin-bottom: 50px;
+}   
+.bloodbath{
+    display: flex;
+    width: 100vw;
+}
+/*****************************************************LEFT SIDE************************************************************/
+.bloodbath .left{
+    width: 70vw;
+    background: rgb(36, 33, 33);
+    display: flex;
+}
+.bloodbath .left .logo{
+    font-size: 150px;
+    color: aqua;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.bloodbath .left .logo i{
+    background: #000;
+    padding: 15px;
+}
+/*LEFT 2ND COLUMN TOP*/
+.bloodbath .left .aslicontent {
+    padding: 18px;
+}   
+.bloodbath .left .aslicontent .top{
+    margin-left: 20px;
+
+}
+.bloodbath .left .aslicontent .top h1{
+    margin: unset;
+    text-align: left;
+    padding: unset;
+    margin-top: 50px;
+    font-size:  60px;
+    color: rgba(80, 199, 0,1);
+    text-shadow: none;
+}
+.bloodbath .left .aslicontent .top p{
+    color: thistle;
+    font-weight: 500;
+}
+/*LEFT 2ND COLUMN TOP*/
+
+
+/*LEFT 2ND COLUMN 2ND ADDRESS*/
+.bloodbath .left .aslicontent .info{
+    display: flex;
+    margin-left: 16%;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.bloodbath .left .aslicontent .info .arow{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+.bloodbath .left .aslicontent .info .arow i{
+    font-size: 15px;
+    margin-right: 12px;
+    color: thistle;
+}
+#margri{
+    margin-right: 17px;
+}
+.bloodbath .left .aslicontent .info .arow p{
+    font-size: 14px;
+    font-weight: 300;
+    color: thistle;
+}
+/*LEFT 2ND COLUMN 2ND ADDRESS*/
+
+/*LEFT 3rd SECTION WITH LISTS*/
+.bloodbath .left .aslicontent .lists{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 22px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+.bloodbath .left .aslicontent .lists .column h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.bloodbath .left .aslicontent .lists .column p{
+    margin-bottom: 16px;
+    color: thistle;
+    font-size: 15px;
+}
+.bloodbath .left .aslicontent .lists .column .row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+} 
+.bloodbath .left .aslicontent .lists .column .row i{
+    color: white;
+    font-size: 12px;
+    margin-right: 8px;
+    padding: 6px;
+    background: rgb(68, 59, 59);
+    border: 1px solid thistle;
+    border-radius: 50%;
+}
+.bloodbath .left .aslicontent .lists .column h4{
+    color: thistle;
+    font-size: 15px;
+}
+/*LEFT 3rd SECTION WITH LISTS*/
+
+/*****************************************************LEFT SIDE************************************************************/
+
+/*****************************************************RIGHT SIDE************************************************************/
+.page2-fixed-bg .bloodbath .right{
+    background: rgba(80, 199, 0, 0.9);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.page2-fixed-bg .bloodbath .right .place{
+    text-align: center;
+    margin-bottom: 160px;
+    margin-left: -15px;
+}
+.page2-fixed-bg .bloodbath .right .place h1{
+    text-shadow: none;
+    font-size: 27px;
+    margin: unset;
+}
+.page2-fixed-bg .bloodbath .right .place p{
+    color: white;
+    font-weight: 300;
+    margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 25px;
+}
+/*INPUT BOX STYLING*/
+.page2-fixed-bg .bloodbath .right .place .forum{
+    display: flex;
+}
+.page2-fixed-bg .bloodbath .right .place input::placeholder{
+    color: white;
+}
+.page2-fixed-bg .bloodbath .right .place input{
+    padding: 10px 5px 10px 20px;
+    margin: 0;
+    width: 93%;
+    outline: 0;
+    background: rgba(80, 199, 0,1);
+    border-radius: 50px;
+    border: 3px solid white;
+    color: white;
+}
+.page2-fixed-bg .bloodbath .right .place button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+    background: white;
+    outline: none;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 2px yellow;
+    margin-left: -26px;
+}
+.page2-fixed-bg .bloodbath .right .place button i{  
+    font-size: 18px;
+}
+/*INPUT BOX STYLING*/
+
+/*****************************************************RIGHT SIDE************************************************************/
+
+/*SUBSCRIBE PORTION*/
+.page2-fixed-bg .subs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page2-fixed-bg .subs .forum{
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.page2-fixed-bg .subs .forum input::placeholder{
+    color: white;
+}
+.page2-fixed-bg .subs .forum input{
+    background: transparent;
+    width: 80%;
+    padding: 12px 8px 12px 10px;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+}
+.page2-fixed-bg .subs .forum button{
+    background: rgb(255, 47, 47);
+    padding: 13px 24px 13px 24px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    margin-left: -6px;
+}
+/*SUBSCRIBE PORTION*/
+/*google maps*/
+.main .map{
+    padding: 15px;
+}
+.main .map .inner{
+    margin-top:  20px;
+    margin-left: 40px;
+}
+.main .map h1{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;    
+}
+.smh{
+    display: none !important;
+}
+/*google maps*/
+/*------------------------------------------2ND PAGE------------------------------------------------------*/
+@media(max-width:1390px){
+    .heading h1{
+        left: 10px;    
+    }
+}
+@media(max-width:1300px){
+    .responsive{
+        display: none;
+    }
+    .smh{
+        display: flex !important;
+    }
+}
+/*responsive page css*/
+.smh {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	animation: gradient 15s ease infinite;
+    text-align: center;
+}
+.smh h1{
+    color: white;
+    font-weight: 400;
+    padding: 0 5vw 0 5vw;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*responsive page css*/
